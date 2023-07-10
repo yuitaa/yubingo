@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 2em;
+}
+
+a {
+    margin: 0.2em;
+    text-decoration: none;
+    color: #272727;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+    height: min(95vh, 95vw);
+    width: min(95vh, 95vw);
+}
+
+.cell {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:2%;
+    border-radius: 7%;
+    text-align: center;
+}
+
+.yubi {
+    background-image: url("img/yubi.png");
+    background-size: cover;
+}
+
+.bug {
+    border: 5px solid #92BC2C;
+}
+
+.dark {
+    border: 5px solid #595761;
+}
+
+.dragon {
+    border: 5px solid #0C69C8;
+}
+
+.electric {
+    border: 5px solid #F2D94E;
+}
+
+.fire {
+    border: 5px solid #FBA54C;
+}
+
+.fairy {
+    border: 5px solid #EE90E6;
+}
+
+.fighting {
+    border: 5px solid #D3425F;
+}
+
+.flying {
+    border: 5px solid #A1BBEC;
+}
+
+.ghost {
+    border: 5px solid #5F6DBC;
+}
+
+.grass {
+    border: 5px solid #5FBD58;
+}
+
+.ground {
+    border: 5px solid #DA7C4D;
+}
+
+.ice {
+    border: 5px solid #75D0C1;
+}
+
+.normal {
+    border: 5px solid #A0A29F;
+}
+
+.poison {
+    border: 5px solid #B763CF;
+}
+
+.psychic {
+    border: 5px solid #FA8581;
+}
+
+.rock {
+    border: 5px solid #C9BB8A;
+}
+
+.steel {
+    border: 5px solid #5695A3;
+}
+
+.water {
+    border: 5px solid #539DDF;
+}
+
+.checked {
+    background-color: #fff1b5;
+}
+
+.bingo {
+    background-color: rgb(255, 187, 187);
+}
